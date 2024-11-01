@@ -1,0 +1,83 @@
+body {
+  padding: 10%;
+  background-color: rgb(186, 185, 185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_section {
+  background-color: rgb(237, 234, 230);
+  padding-right: 50px;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin: 5px;
+}
+
+.submit_button {
+
+  background-color: rgb(222, 194, 82);
+  color: black;
+  width: 180px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+}
+
+.submit_button:active {
+  background-color: rgb(208, 192, 125);
+  color: black;
+  width: 150px;
+  height: 25px;
+  border-radius: 15px;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+
+}
+
+#email {
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+
+}
+
+#password {
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+
+}
+
+#User_name {
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+
+}
+
+#lname {
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+
+}
+
+.form_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
